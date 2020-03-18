@@ -23,7 +23,7 @@ public class APITest {
 		int status = response.getStatusCode();
 		String headers = response.headers().toString();
 		
-		System.out.println("=== Request Response =====");
+		System.out.println("=== Request Response ===== ");
 		System.out.println(responseBody);
 		System.out.println("=== Request Response =====");
 		System.out.println("Status Code: "+status);
